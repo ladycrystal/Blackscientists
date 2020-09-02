@@ -13,7 +13,7 @@ div.flip-card{
    position: absolute;
 }
 
-.flip-card:hover{
+.flip-card:active{
   transform: rotateY(180deg);
 }
 
