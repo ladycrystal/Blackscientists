@@ -1,0 +1,68 @@
+
+div.flip-card-container{
+  width: 250px;
+  height: 320px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+div.flip-card{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+   position: absolute;
+}
+
+.flip-card:hover{
+  transform: rotateY(180deg);
+}
+
+div.flip-card-front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: green;
+  color: white;
+}
+
+div.flip-card-back{
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: blue;
+  color: white;
+  transform: rotateY(180deg);
+}
+body{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	background: black;
+}
+
+/* This puts the cards into 3 rows */
+.flex-flip-main{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* This puts the cards into 5 columns */
+
+ .flex-flip-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+   /* width: 100vw;
+  height: 100vh; */
+}
+
+h1,h2{
+	text-align: center;
+	color: white;
+}
+
+
