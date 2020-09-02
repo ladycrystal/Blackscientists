@@ -42,14 +42,10 @@ body{
 	background: black;
 }
 
-/* This puts the cards into 3 rows */
 .flex-flip-main{
   display: flex;
   justify-content: space-around;
 }
-
-
-/* This puts the cards into 5 columns */
 
  .flex-flip-container{
   display: flex;
