@@ -3,6 +3,8 @@ div.flip-card-container{
   height: 320px;
   position: relative;
   margin-bottom: 15px;
+  
+  
 }
 
 div.flip-card{
@@ -10,7 +12,8 @@ div.flip-card{
   height: 100%;
   transform-style: preserve-3d;
   transition: all 1s ease;
-   position: absolute;
+  position: absolute;
+  
 }
 
 .flip-card:active{
@@ -22,8 +25,10 @@ div.flip-card-front{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: green;
-  color: white;
+  background: #FAEBD7;
+  color: black;
+  border: 1px;
+  border-radius: 15px 50px 30px 5px; 
 }
 
 div.flip-card-back{
@@ -31,9 +36,11 @@ div.flip-card-back{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: blue;
-  color: white;
+  background: white;
+  color: black;
   transform: rotateY(180deg);
+  border: 1px;
+  border-radius: 15px 50px 30px 5px; 
 }
 body{
 	display: flex;
@@ -56,6 +63,12 @@ body{
 h1,h2{
 	text-align: center;
 	color: white;
+}
+img {
+  border: 1px ;
+  border-radius: 15px 50px 30px 5px;    
+  width: 250px;
+  height: 320px;
 }
 
 
