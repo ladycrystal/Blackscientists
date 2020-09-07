@@ -2,7 +2,7 @@ body{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
-	background: #fff6eb;
+	background: #be8540;
 }
 
 .flex-flip-main{
@@ -31,7 +31,7 @@ div.flip-card{
   position: absolute;
   border-radius: 15px;
   background: white;
-  box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+  box-shadow: 10px 10px 15px rgba(120,2,50,0.2),
 			15px 15px 15px rgba(0,0,0,0.1),
 			inset -5px -5px 5px rgba(255,255,255,0.2),
 			inset 5px 5px 5px rgba(0,0,0,0.1);
