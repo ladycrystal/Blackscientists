@@ -37,7 +37,7 @@ div.flip-card{
 			inset 5px 5px 5px rgba(0,0,0,0.1);
 }
 
-.flip-card:active{
+.flip-card.flipped{
   transform: rotateY(180deg);
 }
 
@@ -64,13 +64,11 @@ div.flip-card-back{
   border-radius: 15px;
 }
 
-
-
-
 h1,h2{
 	text-align: center;
 	color: black;
 }
+
 img {
   border: 1px ;
   border-radius: 15px;    
