@@ -58,22 +58,16 @@ div.flip-card-back{
   height: 100%;
   backface-visibility: hidden;
   background: black;
-  color: black;
+  color: white;
   transform: rotateY(180deg);
   border: 1px;
   border-radius: 15px;
 }
 
-h1,h2{
-	text-align: center;
-	color: black;
-}
 
-img {
+#faces{
   border: 1px ;
   border-radius: 15px;    
   width: 250px;
   height: 320px;
 }
-
-
