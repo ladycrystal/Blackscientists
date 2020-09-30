@@ -57,7 +57,7 @@ div.flip-card-back{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: white;
+  background: #F8F8FF;
   color: black;
   transform: rotateY(180deg);
   border: 1px;
