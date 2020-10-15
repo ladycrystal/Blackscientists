@@ -3,6 +3,7 @@ body{
 	justify-content: space-around;
 	flex-direction: column;
 	background: #be8540;
+	background-image: url("spell.png")
 }
 
 .flex-flip-main{
