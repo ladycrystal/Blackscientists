@@ -3,6 +3,7 @@ body{
 	justify-content: space-around;
 	flex-direction: column;
 	background-image: url("spell.png")
+	background-repeat: no-repeat;
 	/*background: #be8540;*/
 }
 
