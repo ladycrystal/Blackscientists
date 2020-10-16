@@ -4,7 +4,9 @@ body{
 	flex-direction: column;
 	background-image: url("spell.png");
 	background-repeat: no-repeat;
-	/*background: #be8540;*/
+	background-attachment: fixed;
+	background-position: center;
+	background: #be8540;
 }
 
 .flex-flip-main{
